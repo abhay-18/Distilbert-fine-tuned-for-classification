@@ -1,0 +1,55 @@
+{
+  "best_metric": 0.34401240944862366,
+  "best_model_checkpoint": "/content/drive/MyDrive/Colab Notebooks/Fine-Tuning LLM/FineTuned_model-1/checkpoint-250",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 750,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.895,
+      "eval_loss": 0.34401240944862366,
+      "eval_runtime": 57.692,
+      "eval_samples_per_second": 17.333,
+      "eval_steps_per_second": 4.333,
+      "step": 250
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 6.466131687164307,
+      "learning_rate": 0.0008,
+      "loss": 0.4251,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.859,
+      "eval_loss": 0.48386165499687195,
+      "eval_runtime": 55.4195,
+      "eval_samples_per_second": 18.044,
+      "eval_steps_per_second": 4.511,
+      "step": 500
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.883,
+      "eval_loss": 0.5994608402252197,
+      "eval_runtime": 55.5488,
+      "eval_samples_per_second": 18.002,
+      "eval_steps_per_second": 4.501,
+      "step": 750
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 2500,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "total_flos": 333195677480640.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
