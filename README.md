@@ -1,6 +1,6 @@
 # Distilbert-fine-tuned-for-classification
 
-This repo containes the finetuned distilbert for sequence classification. Dataset consists of moview reviews which is to be classified into positive or negative.
+This repo containes the finetuned distilbert for sequence classification. Dataset consists of movie reviews which is to be classified into positive or negative.
 
 LoRA (Low Rank Adaptation) method was used to fine tune the base-model.
 
