@@ -5,6 +5,9 @@ This repo containes the finetuned distilbert for sequence classification. Datase
 LoRA (Low Rank Adaptation) method was used to fine tune the base-model.
 
 Accuracy increases from 48% (Base model) to 90% (Finetuned model) after fine-tuning.
+- [![Open in Colab](https://raw.githubusercontent.com/abhay-18/Distilbert-fine-tuned-for-classification/master/colab.svg)](https://githubtocolab.com/abhay-18/Distilbert-fine-tuned-for-classification/blob/master/Fine_tune_LLM_using_LORA.ipynb "Open Notebook")
+Colab Notebook
+
 
 LoRA configuration - 
 ```
