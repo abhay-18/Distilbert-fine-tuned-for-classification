@@ -15,5 +15,10 @@ lora_dropout=0.01, # probablity of dropout
 target_modules = ['q_lin']  # we apply lora to query layer only
 
 ```
-
 More details about LoRA - [here](https://arxiv.org/pdf/2106.09685.pdf)
+
+## Framework versions
+- Transformers 4.32.1
+- Pytorch 2.0.1
+- Datasets 2.14.4
+- Tokenizers 0.13.2
